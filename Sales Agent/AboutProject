@@ -1,0 +1,2 @@
+This is an AI agent that generates a report based on your sales data.
+I decided to store the sales data in google sheets. To do the same thing, you would need to create a google service account an enable google sheets API. 
