@@ -1,0 +1,12 @@
+langchain
+langchain-core
+langchain-community
+langchain-groq
+langgraph
+chromadb
+gpt4all
+spacy
+pywhatkit
+python-dotenv
+PyPDF2
+ipython
