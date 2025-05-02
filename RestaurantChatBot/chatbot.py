@@ -29,9 +29,8 @@ from PyPDF2 import PdfReader
 
 # Load environment variables
 load_dotenv()
-#CHROMA_PATH = r"C:\Users\PAX\LangGraphFolder\restaurant-chatbot\chroma_db"
 embedding_model = GPT4AllEmbeddings()
-PDF_PATH = r"C:\Users\PAX\LangGraphFolder\restaurant-chatbot\FastFoodMenu.pdf"
+PDF_PATH = r"FastFoodMenu.pdf"
 groq_api_key = os.getenv("groq_api_key")
 nlp = spacy.load('en_core_web_sm')
 
